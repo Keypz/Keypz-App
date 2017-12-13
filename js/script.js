@@ -2,7 +2,7 @@ var page = 0;
 
 function getmusicEvents(page) {
 
-  $('#events-panel').show();
+  $('.music-panel,.sport-panel,.container.head-pad.banner').show();
   $('#attraction-panel').hide();
 
   if (page < 0) {
@@ -156,11 +156,12 @@ function getAttraction(id) {
 }
 
 function showAttraction(json) {
-  $('#events-panel').hide();
+  $('.music-panel,.sport-panel,.container.head-pad.banner').hide();
   $('#attraction-panel').show();
   
   $('#attraction-panel').click(function() {
-    getEvents(page);
+    getmusicEvents(page);
+    getsportEvents(page);
   });
   
   $('#attraction .list-group-item-heading').first().text(json.name);
