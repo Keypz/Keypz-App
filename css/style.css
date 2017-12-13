@@ -1,3 +1,5 @@
+body{ color: #474747; }
+
 .keypz-logo{ width: 200px; }
 .head-pad{ padding: 40px 0px 40px 0px; }
 .hit-right{ text-align: right; }
@@ -60,6 +62,8 @@ padding: 12px 15px;
 color: #FF0000;
 }
 
+.img-resp{ width: 100%; max-width: 100%; height: auto; }
+
 a.ui-icons{
 	font-size: 23px;
     width: 20px;
@@ -89,3 +93,6 @@ color: red !important;
 }
 
 #next,#prev{ cursor: pointer; }
+
+.footer{ border-top: 2px solid #EBEBEB; margin-top: 40px; padding: 40px 0px 60px 0px; color: #919191; }
+.footer h5{ color: #474747; }

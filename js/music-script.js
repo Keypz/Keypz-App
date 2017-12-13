@@ -95,6 +95,7 @@ function showAttraction(json) {
   });
   
   $('#attraction .list-group-item-heading').first().text(json.name);
+  $('.list-group-item-desc').text(json.info);
   $('#attraction img').first().attr('src',json.images[0].url);
   $('#classification').text(json.classifications[0].segment.name + " - " + json.classifications[0].genre.name + " - " + json.classifications[0].subGenre.name);
 }
