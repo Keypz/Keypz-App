@@ -2,7 +2,7 @@
 Version 0.1 of API Event Discovery App using Discovery API from Ticketmaster
 
 ## Installation
-1. Comin Soon
+1. Coming Soon
 
 ## Things To Do
 
