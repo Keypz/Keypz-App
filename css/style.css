@@ -11,6 +11,13 @@ h1{ font-size: 39px; }
 h1,h2,h3,h4,h5{ color: #202020; line-height: 1.3; }
 span.red{ color: #FF0000; }
 span.grey{ color: #474747; font-weight: 400; }
+span.fees{ color: #919191; font-weight: 400; }
+span.green{ color: #0dcc2c; font-weight: 400; }
+
+.btn.btn-go{ margin-top: 11px; border: 2px solid #FF0000; font-size: 18px; font-weight: 500; color: #FF0000; background-color: transparent; width: 100%; border-radius: 20px; }
+.btn.btn-gone{ margin-top: 11px; border: 2px solid #919191; font-size: 18px; font-weight: 500; color: #919191; background-color: transparent; width: 100%; border-radius: 20px; }
+
+.btn.btn-go:hover{ background: #FF0000; color: #FFFFFF; }
 
 .list-group {
     display: table;
